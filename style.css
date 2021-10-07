@@ -1,0 +1,68 @@
+@charset "UTF-8";
+/* CSS Document */
+
+.heading {
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	text-align: center;
+	font-size: 44px;
+}
+
+.comic {
+    margin: 0px auto;
+    width: auto;
+	height: auto;
+    display: grid;
+    grid-template-columns: 250px 250px 250px 250px;
+	grid-template-rows: 250px 250px 250px 250px;
+    grid-column-gap: 40px;
+    grid-row-gap: 40px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+	padding-top: 250px;
+}
+
+.panel {
+	background-color: transparent;
+    min-height: 250px;
+	min-width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel-fancy {
+	background-color: transparent;
+	width: 1120px;
+	height: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.panel:hover {
+	background-color: beige;
+}
+
+.panel-fancy:hover {
+	background-color: goldenrod;
+}
+
+button {
+	background-color: goldenrod;
+	color: blue;
+	border: none;
+	padding: 40px;
+	font-size: 44px;
+	text-align: center;
+}
+
+.button {
+	text-align: center
+}
+
+button:hover {
+	background-color: darkgoldenrod;
+	color: saddlebrown;
+}
+
