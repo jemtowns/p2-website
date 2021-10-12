@@ -8,6 +8,7 @@
 }
 
 .comic {
+	position: relative;
     margin: 0px auto;
     width: auto;
 	height: auto;
@@ -19,33 +20,48 @@
     text-align: center;
     font-size: 20px;
     justify-content: center;
-	padding-top: 250px;
+	padding-top: 150px;
 }
 
 .panel {
+    position: relative;
 	background-color: transparent;
     min-height: 250px;
 	min-width: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
+	transition: 0s 180s;
 }
 
 .panel-fancy {
+    position: relative;
 	background-color: transparent;
 	width: 1120px;
 	height: 250px;
     display: flex;
     align-items: center;
     justify-content: center;
+	transition: 0s 180s;
 }
 
 .panel:hover {
 	background-color: beige;
+	transition: 0s;
 }
 
 .panel-fancy:hover {
 	background-color: goldenrod;
+	transition: 0s;
+}
+
+.hidden {
+	display: none;
+	position: absolute;
+}
+
+.box {
+	position: relative;
 }
 
 button {
@@ -65,4 +81,3 @@ button:hover {
 	background-color: darkgoldenrod;
 	color: saddlebrown;
 }
-
