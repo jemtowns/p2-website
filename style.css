@@ -6,7 +6,7 @@ html {
 }
 
 .heading {
-    font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+	font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
 	text-align: center;
 	font-size: 44px;
 	color: #23272a;
@@ -15,14 +15,14 @@ html {
 
 .comic {
 	position: relative;
-    display: grid;
-    grid-template-columns: 250px 250px 250px 250px;
+    	display: grid;
+    	grid-template-columns: 250px 250px 250px 250px;
 	grid-template-rows: 250px 250px 250px 250px;
-    grid-column-gap: 40px;
-    grid-row-gap: 40px;
-    text-align: center;
-    font-size: 20px;
-    justify-content: center;
+    	grid-column-gap: 40px;
+    	grid-row-gap: 40px;
+    	text-align: center;
+    	font-size: 20px;
+    	justify-content: center;
 }
 
 .disapear {
@@ -30,24 +30,24 @@ html {
 }
 
 .panel {
-    position: relative;
+    	position: relative;
 	background-color: transparent;
-    min-height: 250px;
+    	min-height: 250px;
 	min-width: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
 	transition: 0s 180s;
 }
 
 .panel-fancy {
-    position: relative;
+    	position: relative;
 	background-color: transparent;
 	width: 1120px;
 	height: 250px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    	display: flex;
+    	align-items: center;
+    	justify-content: center;
 	transition: 0s 180s;
 }
 
