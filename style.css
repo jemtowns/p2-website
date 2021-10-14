@@ -1,17 +1,20 @@
 @charset "UTF-8";
 /* CSS Document */
 
+html {
+	background-color: #7289da;
+}
+
 .heading {
     font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
 	text-align: center;
 	font-size: 44px;
+	color: #23272a;
+	background-color: #ffffff;
 }
 
 .comic {
 	position: relative;
-    margin: 0px auto;
-    width: auto;
-	height: auto;
     display: grid;
     grid-template-columns: 250px 250px 250px 250px;
 	grid-template-rows: 250px 250px 250px 250px;
@@ -20,7 +23,10 @@
     text-align: center;
     font-size: 20px;
     justify-content: center;
-	padding-top: 150px;
+}
+
+.disapear {
+	display: none;
 }
 
 .panel {
@@ -46,18 +52,17 @@
 }
 
 .panel:hover {
-	background-color: beige;
+	background-color: #99aab5;
 	transition: 0s;
 }
 
 .panel-fancy:hover {
-	background-color: goldenrod;
+	background-color: #99aab5;
 	transition: 0s;
 }
 
-.hidden {
-	display: none;
-	position: absolute;
+.cake-box {
+	text-align: center;
 }
 
 .box {
@@ -65,8 +70,8 @@
 }
 
 button {
-	background-color: goldenrod;
-	color: blue;
+	background-color: #2c2f33;
+	color: #99aab5;
 	border: none;
 	padding: 40px;
 	font-size: 44px;
@@ -78,6 +83,6 @@ button {
 }
 
 button:hover {
-	background-color: darkgoldenrod;
-	color: saddlebrown;
+	background-color: #18191b;
+	color: #7a909f;
 }

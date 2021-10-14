@@ -12,7 +12,7 @@
 		<h2><span style="font-size: 24px">Roll your mouse over the webpage to discover the comic panels</span></h2>
 	</div>
 	<div class="box">
-	<div class = "comic" id = "comic">
+	<div class = "comic" id = "main1">
 		<div class = "panel" id = "p-1"></div>
 		<div class = "panel" id = "p-2"></div>
 		<div class = "panel" id = "p-3"></div>
@@ -24,10 +24,12 @@
 		<div class = "panel" id = "p-8"></div>
 		
 		<div class = "panel-fancy" id = "p-9"></div>
-	<img id = "cake" class="hidden" alt="cartoon cake" src = "cake.png"/>
 	</div>
+	<div class = "cake-box" id = "main2" style="display:none;">
+	<a href="https://www.recipetineats.com/chocolate-cake/#wprm-recipe-container-28077"><img alt="cartoon cake" src = "cake.png"/></a>
+		</div>
 	<div class = "button">
-		<button id="button">Bake the Cake!</button>
+		<button id="button" onClick="switchDivs()">Bake the Cake!</button>
 	</div>
 	</div>
 </body>
