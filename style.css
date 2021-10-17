@@ -60,7 +60,7 @@ html {
 }
 
 #p-1:hover {
-	background-image: url("panel-1.png");
+	background-image: url("https://jemtowns.github.io/p2-website/panel-1.png");
 	background-color: whitesmoke;
 	background-size: 250px;
 	transition: 0s;
