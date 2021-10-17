@@ -2,7 +2,7 @@
 /* CSS Document */
 
 html {
-	background-color: #7289da;
+	background-color: #000000;
 }
 
 .heading {
@@ -52,12 +52,65 @@ html {
 }
 
 .panel:hover {
-	background-color: #99aab5;
 	transition: 0s;
 }
 
 .panel-fancy:hover {
-	background-color: #99aab5;
+	transition: 0s;
+}
+
+#p-1:hover {
+	background-image: url(/panel-1.png);
+	background-color: whitesmoke;
+	background-size: 250px;
+	transition: 0s;
+}
+#p-2:hover {
+	background-image: url(/panel-2.png);
+	background-color: whitesmoke;
+	background-size: 250px;
+	transition: 0s;
+}
+#p-3:hover {
+	background-image: url(/panel-3.png);
+	background-color: whitesmoke;
+	background-size: 250px;
+	transition: 0s;
+}
+#p-4:hover {
+	background-image: url(/panel-4.png);
+	background-color: whitesmoke;
+	background-size: 250px;
+	transition: 0s;
+}
+#p-5:hover {
+	background-image: url(/panel-5.png);
+	background-color: whitesmoke;
+	background-size: 250px;
+	transition: 0s;
+}
+#p-6:hover {
+	background-image: url(/panel-6.png);
+	background-color: whitesmoke;
+	background-size: 250px;
+	transition: 0s;
+}
+#p-7:hover {
+	background-image: url(/panel-7.png);
+	background-color: whitesmoke;
+	background-size: 250px;
+	transition: 0s;
+}
+#p-8:hover {
+	background-image: url(/panel-8.png);
+	background-color: whitesmoke;
+	background-size: 250px;
+	transition: 0s;
+}
+#p-9:hover {
+	background-image: url(/panel-9.png);
+	background-color: whitesmoke;
+	background-size: 1135px;
 	transition: 0s;
 }
 

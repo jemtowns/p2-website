@@ -1,3 +1,5 @@
+// JavaScript Document
+
 function switchDivs() {
 	var main1 = document.getElementById("main1");
 	var main2 = document.getElementById("main2");
